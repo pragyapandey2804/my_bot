@@ -8,6 +8,7 @@ Panels:
         - /Status1
         - /TF1
         - /RobotModel1
+        - /RobotModel1/Status1
       Splitter Ratio: 0.5
     Tree Height: 696
   - Class: rviz_common/Selection
@@ -60,6 +61,8 @@ Visualization Manager:
           Value: true
         chassis:
           Value: true
+        laser:
+          Value: true
         left_wheel:
           Value: true
         right_wheel:
@@ -73,6 +76,8 @@ Visualization Manager:
         base_link:
           chassis:
             caster_wheel:
+              {}
+            laser:
               {}
           left_wheel:
             {}
@@ -108,6 +113,11 @@ Visualization Manager:
           Show Trail: false
           Value: true
         chassis:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+          Value: true
+        laser:
           Alpha: 1
           Show Axes: false
           Show Trail: false
@@ -176,7 +186,7 @@ Visualization Manager:
   Views:
     Current:
       Class: rviz_default_plugins/Orbit
-      Distance: 0.9731909036636353
+      Distance: 1.0588085651397705
       Enable Stereo Rendering:
         Stereo Eye Separation: 0.05999999865889549
         Stereo Focal Distance: 1
@@ -212,5 +222,5 @@ Window Geometry:
   Views:
     collapsed: false
   Width: 1908
-  X: 0
-  Y: 0
+  X: -32
+  Y: -32
